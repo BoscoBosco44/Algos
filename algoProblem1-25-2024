@@ -1,0 +1,106 @@
+/* 
+  Given an array of integers
+  return the index where the smallest integer is located
+
+  return -1 if there is no smallest integer (array is empty) 
+  since -1 is not a valid index, this indicates it couldn't be found
+
+  If the smallest integer occurs more than once, return the index of the first one.
+*/
+
+var nums1 = [5, 2, 3];
+var expected1 = 1;
+
+var nums2 = [5, 4, 2, 2, 3];
+var expected2 = 2;
+
+var nums3 = [];
+var expected3 = -1;
+
+var nums4 = [2];
+var expected4 = 0;
+
+var nums5 = [2, 2];
+
+
+/**
+ * Returns the index of the smallest number from the given array.
+ * - Time: O(?).
+ * - Space: O(?).
+ * @param {Array<number>} nums
+ * @returns {number} Index of smallest number or -1 if empty given array.
+ */
+function indexOfMinVal(nums) {
+    var minValIndex = 0;
+
+    if(nums.length === 0) {
+        return -1;
+    }
+    for(var i = 0; i < nums.length; i++) {
+        if(nums[i] < nums[minValIndex]) {
+            minValIndex = i;
+        }
+    }
+    return minValIndex;
+}
+
+console.log(indexOfMinVal(nums1));
+console.log(indexOfMinVal(nums2));
+console.log(indexOfMinVal(nums3));
+console.log(indexOfMinVal(nums4));
+
+/*******************************************************************************/
+
+/* 
+  Given an array, reverse it's items in place
+  return the array after reversing it
+
+  Do it in place without using any built in methods
+*/
+
+var arr1 = [1, 2, 3];
+var expected1 = [3, 2, 1];
+
+var arr2 = ['a', 'b'];
+var expected2 = ['b', 'a'];
+
+var arr3 = ['a'];
+var expected3 = ['a'];
+
+var arr4 = [];
+var expected4 = [];
+
+var arr5 = [1, 2, 3, 4];
+var arr6 = [1, 2, 3, 4, 5];
+
+
+
+function reverseArr(items) {
+    var temp;
+    var midpoint = Math.floor(items.length / 2);
+    var endpoint = items.length - 1;
+
+    for(var i = 0; i <= midpoint; i++) {
+        // temp = items[i];
+        // console.log("temp = " + temp);
+        // items[i] = items[items.length-1]
+        // console.log("items[items.length-(i+1)] = " + items[items.length-(i+1)])
+        // console.log("items[i] = " + items[i]);
+        // items[items.length-(i+1)] = temp;
+
+        [items[i], items[endpoint -1] = items[endpoint - 1], items[i]];
+    }
+    return "result = " + items;
+}
+
+console.log(reverseArr(arr1));
+console.log("---------------");
+console.log(reverseArr(arr2));
+console.log("---------------");
+console.log(reverseArr(arr3));
+console.log("---------------");
+console.log(reverseArr(arr4));
+console.log("---------------");
+console.log(reverseArr(arr5));
+console.log("---------------");
+console.log(reverseArr(arr6));
