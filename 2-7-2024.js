@@ -71,11 +71,9 @@ function decodeStr(str) {
     // Your Code Here
     let unencoded = "";
     let curentChar = "";
-    let curentNum = "";
     
     for(let i = 0; i < str.length; i++) {
         let curentNum = "";
-        console.log(str.length)
         console.log("i: " + i)
         if(isNaN(str[i])){
             curentChar = str[i];
