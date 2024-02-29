@@ -84,7 +84,7 @@ const expected6 = 7;
 function sumToOneDigit(num) {
     // As mentioned in the description above, you could approach this with casting to a string since numbers don't have index/isolated values. 
     // Watch out for NaN! (Not a Number)
-
+    num = num.toString()
     if(num < 10){
         return 1
     }
