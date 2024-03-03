@@ -8,7 +8,6 @@
 */
 
 const str1 = "lim";
-
 const expected1 = ["ilm", "iml", "lim", "lmi", "mil", "mli"];
 // Order of the output array does not matter
 
