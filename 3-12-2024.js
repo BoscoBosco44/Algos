@@ -53,6 +53,11 @@ function orderedMultisetUnion(sortedA, sortedB) {
     let i = 0;
     let j = 0;
 
+    if(sortedA.length === 0)
+        {return sortedB}
+    else if (sortedB.length === 0)
+        {return sortedA}
+
     while(i < sortedA.length || j < sortedB.length) {
         if(sortedA[i] < sortedB[j]) {
             newArr.push(sortedA[i])
@@ -67,8 +72,6 @@ function orderedMultisetUnion(sortedA, sortedB) {
             j++;
         }
     }
-
-
 
     return newArr;
 }
