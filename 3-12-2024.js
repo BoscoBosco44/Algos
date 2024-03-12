@@ -48,4 +48,33 @@ const expected5 = [];
  *    should be based on the max amount that dupe appears from one set,
  *    not the combined amount from both sets.
  */
-function orderedMultisetUnion(sortedA, sortedB) {}
+function orderedMultisetUnion(sortedA, sortedB) {
+    let newArr =[];
+    let i = 0;
+    let j = 0;
+
+    while(i < sortedA.length || j < sortedB.length) {
+        if(sortedA[i] < sortedB[j]) {
+            newArr.push(sortedA[i])
+            i++;
+        } else if (sortedB[j] < sortedA[i]) {
+            newArr.push(sortedB[j])
+            j++;
+        }
+        else {
+            newArr.push(sortedA[i])
+            i++;
+            j++;
+        }
+    }
+
+
+
+    return newArr;
+}
+
+console.log(orderedMultisetUnion(numbers1A, numbers1B))
+console.log(orderedMultisetUnion(numbers2A, numbers2B))
+console.log(orderedMultisetUnion(numbers3A, numbers3B))
+console.log(orderedMultisetUnion(numbers4A, numbers4B))
+console.log(orderedMultisetUnion(numbers5A, numbers5B))
