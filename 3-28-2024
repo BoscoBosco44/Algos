@@ -51,6 +51,8 @@ function containerWithMostWater(heights) {
             reightWall = j-1;
             j--;
         }
+        if(heights[i] * heights[j] > maxVolume) 
+            { maxVolume = heights[i] * heights[j] }
     }
 
 
