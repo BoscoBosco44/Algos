@@ -41,4 +41,7 @@ const expected3 = [-1, -1]; // not found.
  * @returns {Array<number, number>} The song pair indexes, or [-1, -1] if no pair is found.
  *    If there were multiple solutions, the one with the longest song should be used.
  */
-function musicRuntime(busDuration, songDurations) {}
+function musicRuntime(busDuration, songDurations) {
+
+    
+}
