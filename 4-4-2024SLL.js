@@ -253,8 +253,10 @@ class SinglyLinkedList {
     * - Time: O(?).
     * - Space: O(?).
     * @returns {any} The data of the second to last node or null if there is no
-    *    second to last node.
+    *    second to last node
     */
+
+
     secondToLast() {
         //your code here
         if(this.isEmpty() || (this.head.next)) {
