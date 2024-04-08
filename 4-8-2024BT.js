@@ -46,6 +46,7 @@ class BinarySearchTree {
      */
     isEmpty() { 
         //Your code here
+        console.log(this.root === null);
         return this.root === null;
     }
 
@@ -58,6 +59,8 @@ class BinarySearchTree {
      * @returns {number} The smallest integer from this tree.
      */
     min(current = this.root) {
+        if(this.isEmpty())
+            return null;
         //Your code here
         while(current.left) {
             // console.log(current.data);
@@ -76,6 +79,8 @@ class BinarySearchTree {
      */
     minRecursive(current = this.root) { 
         //Your code here
+        if(this.isEmpty())
+            return null;
         if(!current.left) {
             return current.data;
         }
@@ -92,6 +97,8 @@ class BinarySearchTree {
      */
     max(current = this.root) { 
         //Your code here
+        if(this.isEmpty())
+            return null;
         while(current.right) {
             current = current.right;
         }
