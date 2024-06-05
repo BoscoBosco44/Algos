@@ -1,10 +1,18 @@
+
+// ---------------------- O(n^2) ----------------------
 var sum = 0;
 
 for(var i = 0; i < nums.length; i++) {
-    var num1 = nums[i];
-    var num2 = nums[i+1];
+    for(var j = i+1; j < nums.length; j++) {
 
-    sum = num1 + num2;
+        if(nums[i] + nums[j] == target) {
+            return [i, j];
+        }
+    }
+}
+
+// ---------------------- O(n) ----------------------
+
+for(var i = 0; i < nums.length; i++) {
     
 }
-return sum;
