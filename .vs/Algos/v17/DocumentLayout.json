@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\peter\\Desktop\\Coding Projects\\Algos\\",
+  "WorkspaceRootPath": "C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\peter\\Desktop\\Coding Projects\\Algos\\MergeStringsAlternately.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MergeStringsAlternately.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\RomanToInteger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RomanToInteger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\peter\\Desktop\\Coding Projects\\Algos\\FindClosestNumberToZero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\FindClosestNumberToZero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FindClosestNumberToZero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\MergeStringsAlternately.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MergeStringsAlternately.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,10 +27,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RomanToInteger.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\RomanToInteger.cs",
+              "RelativeDocumentMoniker": "RomanToInteger.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\RomanToInteger.cs",
+              "RelativeToolTip": "RomanToInteger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:15:52.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MergeStringsAlternately.cs",
-              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\Coding Projects\\Algos\\MergeStringsAlternately.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\MergeStringsAlternately.cs",
               "RelativeDocumentMoniker": "MergeStringsAlternately.cs",
-              "ToolTip": "C:\\Users\\peter\\Desktop\\Coding Projects\\Algos\\MergeStringsAlternately.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\MergeStringsAlternately.cs",
               "RelativeToolTip": "MergeStringsAlternately.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,9 +54,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FindClosestNumberToZero.cs",
-              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\Coding Projects\\Algos\\FindClosestNumberToZero.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\FindClosestNumberToZero.cs",
               "RelativeDocumentMoniker": "FindClosestNumberToZero.cs",
-              "ToolTip": "C:\\Users\\peter\\Desktop\\Coding Projects\\Algos\\FindClosestNumberToZero.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\Projects\\Coding Projects\\Algos\\FindClosestNumberToZero.cs",
               "RelativeToolTip": "FindClosestNumberToZero.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
